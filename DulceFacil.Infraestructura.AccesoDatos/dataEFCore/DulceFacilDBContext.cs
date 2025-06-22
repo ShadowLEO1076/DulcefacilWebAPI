@@ -109,7 +109,7 @@ public partial class DulceFacilDBContext : DbContext
 
             entity.HasOne(d => d.idRutaNavigation).WithMany(p => p.Entrega)
                 .HasForeignKey(d => d.idRuta)
-                .HasConstraintName("FK__Entrega__idRuta__75A278F5");
+                .HasConstraintName("FK__Entrega__idRuta__75A278F5");l
         });
 
         modelBuilder.Entity<Pedido>(entity =>

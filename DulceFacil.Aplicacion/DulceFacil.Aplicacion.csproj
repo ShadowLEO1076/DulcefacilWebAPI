@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DulceFacil.Aplicacion.DTO\DulceFacil.Aplicacion.DTO.csproj" />
     <ProjectReference Include="..\DulceFacil.Dominio.Modelos\DulceFacil.Dominio.Modelos.csproj" />
     <ProjectReference Include="..\DulceFacil.Dominio.Servicios\DulceFacil.Dominio.Servicios.csproj" />
     <ProjectReference Include="..\DulceFacil.Infraestructura.AccesoDatos\DulceFacil.Infraestructura.AccesoDatos.csproj" />
