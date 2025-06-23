@@ -23,7 +23,7 @@ public partial class DulceFacilDBContext : DbContext
 
     public virtual DbSet<DetallePedido> DetallePedido { get; set; }
 
-    public virtual DbSet<EntregaImpl> Entrega { get; set; }
+    public virtual DbSet<Entrega> Entrega { get; set; }
 
     public virtual DbSet<Pedido> Pedido { get; set; }
 
