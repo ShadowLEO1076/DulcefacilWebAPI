@@ -7,9 +7,9 @@ using DulceFacil.Dominio.Modelos.Abstracciones;
 
 namespace DulceFacil.Infraestructura.AccesoDatos.Repositorio
 {
-    public class CategoriaClienteRepositoryImpl : RepositoryImpl<CategoriaCliente>, InterfaceCategoriaClienteRepository
+    public class PedidoImpl : RepositoryImpl<Pedido>, InterfacePedidoRepository
     {
-        public CategoriaClienteRepositoryImpl(DulceFacilDBContext contexto) : base(contexto)
+        public PedidoImpl(DulceFacilDBContext contexto) : base(contexto)
         {
         }
     }
